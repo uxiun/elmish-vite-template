@@ -8,7 +8,7 @@
 		"restore": "dotnet tool restore",
 		"dev": "dotnet fable watch src --lang ts --run vite",
 		"build": "dotnet fable src --lang ts --run vite build",
-		"preview": "dotnet fable src --run vite preview",
+		"preview": "dotnet fable src --lang ts --run vite preview",
 		"fable": "dotnet fable src --lang ts",
 		"watch": "dotnet fable watch src --lang ts",
 		"clean": "dotnet fable clean src --lang ts",
