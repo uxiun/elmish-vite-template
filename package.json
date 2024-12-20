@@ -5,7 +5,7 @@
 	"main": "Program.fs.js",
 	"type": "module",
 	"scripts": {
-		"restore": "dotnet tool restore",
+		"restore": "dotnet tool restore && dotnet paket restore",
 		"dev": "dotnet fable watch src --lang ts --run vite",
 		"build": "dotnet fable src --lang ts --run vite build",
 		"preview": "dotnet fable src --lang ts --run vite preview",
