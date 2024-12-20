@@ -1,0 +1,9 @@
+{
+	"version": 2,
+	"buildCommand": "vite build",
+	"build": {
+		"config": {
+			"distDir": "dist"
+		}
+	}
+}
